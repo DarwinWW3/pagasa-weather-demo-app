@@ -19,3 +19,8 @@ backend-dev:
 frontend-dev:
 	@echo "Starting developement server..."
 	cd frontend && npm install && npm run dev
+
+## build prod:
+.PHONY: build-prod
+build-prod:
+	docker compose -f docker-compose.build-prod.yml build

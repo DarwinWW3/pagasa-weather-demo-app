@@ -32,3 +32,8 @@ File release changelog.
 
 ### Added
 File release changelog.
+
+## [1.1.0] - 2026-05-20
+
+### Added
+Updated release and deploy workflows for github action
